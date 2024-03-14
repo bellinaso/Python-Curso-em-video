@@ -1,0 +1,6 @@
+n1=str(input('Qual seu nome completo? '))
+n2=(n1.strip())
+n3=(n2.lower())
+n4=(n3.title())
+n5=(n4.split())
+print('Seu nome tem Silva? {}'.format('Silva' in n5))

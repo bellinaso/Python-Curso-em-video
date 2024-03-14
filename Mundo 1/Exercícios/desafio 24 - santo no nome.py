@@ -1,0 +1,8 @@
+n1=str(input('Digite o nome de uma cidade: '))
+n2=(n1.strip())
+n3=(n2.lower())
+n4=(n3.title())
+n5=(n4.split())
+n6=(n5[0])
+n7=('Santo' in n6)
+print(n7)

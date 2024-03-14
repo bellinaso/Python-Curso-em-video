@@ -1,0 +1,6 @@
+n1=str(input('Digite o seu nome completo: '))
+n2=str(n1.split())
+print(n2.upper())
+print(n2.lower())
+print('O nome tem "{}" letras, descontando espaços.'.format(len(n2)))
+print(len(n2[0]))
